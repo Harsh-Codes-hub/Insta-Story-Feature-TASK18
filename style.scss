@@ -69,10 +69,11 @@ main {
   background-color: var(--bg-light);
   display: inline-block;
   height: 98px;
-  width: 98px;
+  aspect-ratio: 1/1;
   margin-inline-end: 18px;
   border-radius: 50%;
   position: relative;
+  z-index: 1;
   &::before {
     content: '';
     background: var(--insta-gradiant);
